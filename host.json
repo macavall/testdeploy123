@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "logging": {
+    "fileLoggingMode": "always",
+    "console": {
+      "isEnabled": "true"
+    },
+    "logLevel": {
+      "default": "Trace",
+      "Host.Results": "Trace",
+      "Microsoft.Hosting.Lifetime": "Trace",
+      "Microsoft": "Trace",
+      "Host.Aggregator": "Trace",
+      "Function": "Trace",
+      "Host.Executor": "Trace",
+      "Worker": "Trace"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request;Trace;Dependency"
+      }
+    }
+  }
+}
